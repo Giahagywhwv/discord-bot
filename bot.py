@@ -13,4 +13,4 @@ async def on_ready():
     print(f"✅ {bot.user} is online")
 
 TOKEN = os.getenv("TOKEN")
-bot.run() 
+bot.run(TOKEN) 
